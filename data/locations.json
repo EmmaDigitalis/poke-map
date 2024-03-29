@@ -1,0 +1,426 @@
+{
+    "town-starter": {
+        "type": "town",
+        "name": "Starter Town",
+        "x": 0,
+        "y": 8,
+        "width": 1,
+        "height": 1
+    },
+    "route-1": {
+        "type": "route",
+        "name": "Route 1",
+        "x": 1,
+        "y": 8,
+        "width": 2,
+        "height": 1
+    },
+    "town-basic": {
+        "type": "town",
+        "name": "Basic Town",
+        "x": 3,
+        "y": 8,
+        "width": 1,
+        "height": 1
+    },
+    "route-2": {
+        "type": "route",
+        "name": "Route 2",
+        "x": 4,
+        "y": 7,
+        "width": 1,
+        "height": 2
+    },
+    "gym-1": {
+        "type": "town",
+        "name": "Baby Gym Town",
+        "x": 4,
+        "y": 6,
+        "width": 1,
+        "height": 1
+    },
+    "route-3l": {
+        "type": "route",
+        "name": "Route 3L",
+        "x": 3,
+        "y": 4,
+        "width": 1,
+        "height": 3
+    },
+    "route-3r": {
+        "type": "route",
+        "name": "Route 3R",
+        "x": 5,
+        "y": 4,
+        "width": 1,
+        "height": 3
+    },
+    "gym-2": {
+        "type": "town",
+        "name": "Bug Gym City",
+        "x": 3,
+        "y": 3,
+        "width": 1,
+        "height": 1
+    },
+    "gym-3": {
+        "type": "town",
+        "name": "Fighting Gym City",
+        "x": 5,
+        "y": 3,
+        "width": 1,
+        "height": 1
+    },
+    "route-4": {
+        "type": "route",
+        "name": "Route 4",
+        "x": 4,
+        "y": 1,
+        "width": 1,
+        "height": 3
+    },
+    "mountain-ext-n": {
+        "type": "route",
+        "name": "North Mountain Exterior",
+        "x": 5,
+        "y": 1,
+        "width": 1,
+        "height": 1
+    },
+    "mountain-n": {
+        "type": "cave",
+        "name": "Northern Mountain",
+        "x": 5.25,
+        "y": 1.25,
+        "width": 0.5,
+        "height": 0.5
+    },
+    "town-mountain": {
+        "type": "town",
+        "name": "Mountain Town",
+        "x": 5,
+        "y": 0,
+        "width": 1,
+        "height": 1
+    },
+    "desert": {
+        "type": "route",
+        "name": "Desert",
+        "x": 6,
+        "y": 1,
+        "width": 3,
+        "height": 1
+    },
+    "gym-4": {
+        "type": "town",
+        "name": "Ground Gym City",
+        "x": 9,
+        "y": 1,
+        "width": 1,
+        "height": 1
+    },
+    "route-6": {
+        "type": "route",
+        "name": "Route 6",
+        "x": 10,
+        "y": 1,
+        "width": 3,
+        "height": 1
+    },
+    "route-7": {
+        "type": "route",
+        "name": "Route 7",
+        "x": 12,
+        "y": 2,
+        "width": 3,
+        "height": 1
+    },
+    "route-8": {
+        "type": "route",
+        "name": "Route 8",
+        "x": 14,
+        "y": 3,
+        "width": 1,
+        "height": 3
+    },
+    "safari-gate": {
+        "type": "route",
+        "name": "Safari Zone Gate",
+        "x": 14,
+        "y": 1,
+        "width": 1,
+        "height": 1
+    },
+    "safari-zone": {
+        "type": "cave",
+        "name": "Safari Zone",
+        "x": 14.25,
+        "y": 1.25,
+        "width": 0.5,
+        "height": 0.5
+    },
+    "route-9": {
+        "type": "route",
+        "name": "Route 9",
+        "x": 15,
+        "y": 4,
+        "width": 3,
+        "height": 1
+    },
+    "gym-5": {
+        "type": "town",
+        "name": "Gym 5 City",
+        "x": 18,
+        "y": 4,
+        "width": 1,
+        "height": 1
+    },
+    "town-harbor": {
+        "type": "town",
+        "name": "Harbor Town",
+        "x": 14,
+        "y": 10,
+        "width": 1,
+        "height": 1
+    },
+    "route-10": {
+        "type": "route",
+        "name": "Route 10",
+        "x": 12,
+        "y": 10,
+        "width": 2,
+        "height": 1
+    },
+    "route-11": {
+        "type": "route",
+        "name": "Route 11",
+        "x": 10,
+        "y": 9,
+        "width": 3,
+        "height": 1
+    },
+    "route-forest": {
+        "type": "route",
+        "name": "Spooky Forest Entrance",
+        "x": 12,
+        "y": 7,
+        "width": 1,
+        "height": 2
+    },
+    "forest": {
+        "type": "cave",
+        "name": "Spooky Forest",
+        "x": 12.25,
+        "y": 7.25,
+        "width": 0.5,
+        "height": 0.5
+    },
+    "gym-6": {
+        "type": "town",
+        "name": "Ghost Gym City",
+        "x": 12,
+        "y": 6,
+        "width": 1,
+        "height": 1
+    },
+    "town-basic-big": {
+        "type": "town",
+        "name": "Basic Big City",
+        "x": 9,
+        "y": 9,
+        "width": 1,
+        "height": 1
+    },
+    "route-12": {
+        "type": "route",
+        "name": "Route 12",
+        "x": 8,
+        "y": 9,
+        "width": 1,
+        "height": 3
+    },
+    "mountain-south-east": {
+        "type": "route",
+        "name": "Southern Mountain East",
+        "x": 6,
+        "y": 9,
+        "width": 2,
+        "height": 1
+    },
+    "mountain-south-west": {
+        "type": "route",
+        "name": "Southern Mountain West",
+        "x": 5,
+        "y": 8,
+        "width": 1,
+        "height": 2
+    },
+    "south-mountain-1": {
+        "type": "cave",
+        "name": "Southern Mountain",
+        "x": 7.25,
+        "y": 9.25,
+        "width": 0.5,
+        "height": 0.5
+    },
+    "south-mountain-2": {
+        "type": "cave",
+        "name": "Southern Mountain",
+        "x": 5.25,
+        "y": 8.25,
+        "width": 0.5,
+        "height": 0.5
+    },
+    "route-13": {
+        "type": "route",
+        "name": "Route 13",
+        "x": 2,
+        "y": 9,
+        "width": 1,
+        "height": 1
+    },
+    "town-float": {
+        "type": "town",
+        "name": "Floating Water Town",
+        "x": 2,
+        "y": 10,
+        "width": 1,
+        "height": 1
+    },
+    "route-14": {
+        "type": "route",
+        "name": "Route 14",
+        "x": 2,
+        "y": 11,
+        "width": 2,
+        "height": 1
+    },
+    "route-15": {
+        "type": "route",
+        "name": "Route 15",
+        "x": 3,
+        "y": 12,
+        "width": 3,
+        "height": 1
+    },
+    "gym-7": {
+        "type": "town",
+        "name": "Ice Gym City",
+        "x": 6,
+        "y": 12,
+        "width": 1,
+        "height": 1
+    },
+    "route-16": {
+        "type": "route",
+        "name": "Route 16",
+        "x": 6,
+        "y": 11,
+        "width": 1,
+        "height": 1
+    },
+    "ice-cave": {
+        "type": "cave",
+        "name": "Ice Cave",
+        "x": 6.25,
+        "y": 11.25,
+        "width": 0.5,
+        "height": 0.5
+    },
+    "route-17": {
+        "type": "route",
+        "name": "Route 17",
+        "x": 7,
+        "y": 12,
+        "width": 2,
+        "height": 1
+    },
+    "route-18": {
+        "type": "route",
+        "name": "Route 18",
+        "x": 9,
+        "y": 7,
+        "width": 1,
+        "height": 2
+    },
+    "route-19": {
+        "type": "route",
+        "name": "Route 19",
+        "x": 8,
+        "y": 5,
+        "width": 1,
+        "height": 3
+    },
+    "route-20": {
+        "type": "route",
+        "name": "Route 20",
+        "x": 9,
+        "y": 5,
+        "width": 1,
+        "height": 1
+    },
+    "power-plant": {
+        "type": "cave",
+        "name": "Power Plant",
+        "x": 9.25,
+        "y": 6.25,
+        "width": 0.5,
+        "height": 0.5
+    },
+    "gym-8": {
+        "type": "town",
+        "name": "Steel Gym City",
+        "x": 10,
+        "y": 5,
+        "width": 1,
+        "height": 1
+    },
+    "route-21": {
+        "type": "route",
+        "name": "Route 21",
+        "x": 10,
+        "y": 4,
+        "width": 1,
+        "height": 1
+    },
+    "victory-road-entrance": {
+        "type": "cave",
+        "name": "Victory Road",
+        "x": 10.25,
+        "y": 4.25,
+        "width": 0.5,
+        "height": 0.5
+    },
+    "town-g": {
+        "type": "town",
+        "name": "Underground Village",
+        "x": 7,
+        "y": 3,
+        "width": 1,
+        "height": 1
+    },
+    "route-victory-out": {
+        "type": "route",
+        "name": "Route 22",
+        "x": 1,
+        "y": 1,
+        "width": 1,
+        "height": 2
+    },
+    "victory-road-exit": {
+        "type": "cave",
+        "name": "Victory Road",
+        "x": 1.25,
+        "y": 2.25,
+        "width": 0.5,
+        "height": 0.5
+    },
+    "pokemon-league": {
+        "type": "town",
+        "name": "Pokémon League",
+        "x": 1,
+        "y": 0,
+        "width": 1,
+        "height": 1
+    }
+}

@@ -1,0 +1,88 @@
+@font-face {
+    font-family: "PokeFont";
+    src: url("../fonts/pkmnem.ttf");
+}
+
+:root {
+    --scaler: 1;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(5, 10, 37)
+}
+
+#container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#container>#plane {
+    width: calc(192px * var(--scaler));
+    height: calc(144px * var(--scaler));
+    position: relative;
+    image-rendering: pixelated;
+    background-size: cover;
+    background-image: url(../img/map-nopaths.png);
+}
+
+#container>#plane>#playground{
+    background-size: cover;
+    background-image: url(../img/map-paths.png);
+    width: calc(152px * var(--scaler));
+    height: calc(104px * var(--scaler));
+    position: relative;
+    left: calc(24px * var(--scaler));
+    top: calc(24px * var(--scaler));
+}
+
+.location{
+    cursor: pointer;
+    background: rgba(255, 255, 255, 0);
+    position: absolute;
+    outline: 0px solid black;
+    transition: outline 0.1s ease;
+}
+
+.location:hover{
+    animation: hoverAnim 1s infinite;
+    outline: 4px solid black;
+}
+
+@keyframes hoverAnim{
+    0%{background: rgba(255, 255, 255, 0);}
+    50%{background: rgba(255, 255, 255, 0.5);}
+    100%{background: rgba(255, 255, 255, 0);}
+}
+
+#info{
+    text-align: center;
+    bottom: calc(2px + (2px * var(--scaler))); 
+    color: rgb(180, 180, 180);
+    position: relative;
+    font-family: PokeFont;
+    font-weight: bold;
+    font-size: clamp(26px, calc(30px + (3px * (var(--scaler) - 1))), 48px);
+    line-height: clamp(26px, calc(30px + (3px * (var(--scaler) - 1))), 48px);;
+}
+
+.route{
+    z-index: 1;
+}
+
+.town{
+    z-index: 2;
+}
+
+.cave{
+    z-index: 3;
+}
